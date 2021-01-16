@@ -1,0 +1,38 @@
+
+        * {
+            box-sizing: content-box;
+            margin: 0 auto;
+        }
+
+        h1, h2 {
+            font-family: 'Poppins', sans-serif;
+            color: grey;
+            text-transform: uppercase;
+            font-weight: bold;
+            text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            margin-top: 10%;
+        }
+
+        .container {
+            display: flex;
+        }
+
+        .zoneA {
+            display: flex;
+            align-content: center;
+            justify-content: center;
+        }
+
+        
+        .zoneB{
+            display: flex;
+        }
+        .mini{display: flex;
+            align-items: center;
+            flex-wrap: wrap; }
+
+           
+       .mini, p, img{ padding: 1%;}
+
+  
